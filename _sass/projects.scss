@@ -1,0 +1,54 @@
+#project {
+
+  background-color: #fff;
+  padding-bottom: 10em;
+  height:80vh;
+
+  h2 {
+    text-align: center;
+    color:#584D4D;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+  }
+
+  p {
+    text-align: center;
+    font-size : 1.5em;
+    color :#ada6a6;
+  }
+
+  ul {
+
+    margin-left: 10em;
+    padding-top :2em;
+    
+    li {
+
+      text-transform: uppercase;
+      text-decoration:none;
+      display: inline;
+      margin-right:4em;
+
+
+      a {
+
+        color:#828281;
+        font-size:1.3em;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+    }
+
+  }
+
+  .project-row-custom {
+    margin-top :2em;
+  }
+
+  #project-ul-custom .mix{
+    display: none;
+  }
+}
