@@ -1,0 +1,27 @@
+#skills {
+
+  height:100vh;
+
+   ul li {
+    list-style-type: none;
+    width:150px;
+    float:left;
+    margin-left: 10em;
+
+
+  }
+
+  li a {
+
+    text-decoration:  none;
+    border:10px solid transparent;
+    padding:5px 3em;
+    color:#fff;
+    background-color: #F3377A;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+      background-color: green;
+    }
+}

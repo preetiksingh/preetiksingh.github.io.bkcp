@@ -4,7 +4,7 @@ layout: default
 
 
 <section id="home">
-<h1>Home</h1>
+<h1>Preeti Kumari</h1>
 <div id="particles-js">
   
 </div>
@@ -39,35 +39,24 @@ layout: default
 </section>
 
 <section id="skills">
-<canvas id="mycanvas" width="256" height="256"></canvas>
-<script>
-      $(document).ready(function(){
-        var ctx = $("#mycanvas").get(0).getContext("2d");
-        //pie chart data
-        //sum of values = 360
-        var data = [
-          {
-            value: 270,
-            color: "cornflowerblue",
-            highlight: "lightskyblue",
-            label: "Corn Flower Blue"
-          },
-          {
-            value: 50,
-            color: "lightgreen",
-            highlight: "yellowgreen",
-            label: "Lightgreen"
-          },
-          {
-            value: 40,
-            color: "orange",
-            highlight: "darkorange",
-            label: "Orange"
-          }
-        ];
-        //draw
-        var piechart = new Chart(ctx).Pie(data);
-      });
-    </script>
-  
-</section>
+  <div class="container">
+    <div id="rootwizard">
+    <ul>
+      <li><a href="#tab1" data-toggle="tab">Frontend</a></li>
+      <li><a href="#tab2" data-toggle="tab">Backend</a></li>
+      <li><a href="#tab3" data-toggle="tab">Testing</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane" id="tab1">
+         <canvas id="mycanvas" width="256" height="256" ></canvas>
+        </div>
+        <div class="tab-pane" id="tab2">
+          <canvas id="mycanvas" width="256" height="256" ></canvas>
+        </div>
+      <div class="tab-pane" id="tab3">
+        <canvas id="mycanvas" width="256" height="256" ></canvas>
+        </div>
+    </div>  
+</div>
+    </div>
+  </section>
