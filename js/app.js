@@ -1,9 +1,9 @@
     $(document).ready(function(){
 
-    $('#project-ul-custom').mixItUp();
-    particlesJS.load('particles-js', 'assets/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-    });
+    // $('#project-ul-custom').mixItUp();
+    // particlesJS.load('particles-js', 'assets/particles.json', function() {
+    // console.log('callback - particles.js config loaded');
+    // });
 
     var ctx = $("#mycanvas").get(0).getContext("2d");
     //pie chart data
@@ -34,7 +34,7 @@
 
     $(document).ready(function() {
   try {
-    $('body').ripples({
+    $('#home').ripples({
       resolution: 512,
       dropRadius: 20, //px
       perturbance: 0.04,
