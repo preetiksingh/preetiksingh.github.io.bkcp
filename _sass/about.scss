@@ -1,11 +1,18 @@
 #about {
 
-  height:50vh;
+  height:70vh;
+
   .header-custom {
     text-align: center;
+    margin-bottom: 1em;
+    color:black;
   }
 
     span {
-       border-bottom: 5px solid black;
+       border-bottom: 5px solid #1abc9c;
     }
+    
+  .col-custom{
+    font-family: $about-font;
+  }  
 }
