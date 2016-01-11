@@ -26,6 +26,7 @@
     a {
       color :#FFFF3D;
       font-weight: bold;
+      margin-left: 1em;
 
       &:hover {
 
@@ -39,5 +40,41 @@
     right: 11em;
     top: 15em;
   }
+  .text-custom {
+    position: absolute;
+    top:5em;  
 
+  }
+  .first-element {
+    font-family: $primary-font;
+    color:#3B3B3C;
+    font-size:1.4em;
+   
+
+  }
+
+  .second-element {
+    font-family: $primary-font;
+    color:#3B3B3C;
+    font-size:1.4em;
+    margin-left:1.5em;
+    
+  }
+
+  .third-element {
+    font-family: $primary-font;
+    color:#3B3B3C;
+    font-size:1.4em;
+    margin-left:2.5em;
+    margin-top: 2em;
+    
+  }
+
+   .fourth-element {
+    color:#fff;
+    font-size:5em;
+    line-height: 1em;
+    margin-left:.7em;
+    
+  }
 }
