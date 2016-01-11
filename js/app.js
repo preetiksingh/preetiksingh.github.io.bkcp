@@ -1,6 +1,6 @@
     $(document).ready(function(){
 
-    // $('#project-ul-custom').mixItUp();
+    $('#project-ul-custom').mixItUp();
     // particlesJS.load('particles-js', 'assets/particles.json', function() {
     // console.log('callback - particles.js config loaded');
     // });
