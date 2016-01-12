@@ -4,36 +4,7 @@
     // particlesJS.load('particles-js', 'assets/particles.json', function() {
     // console.log('callback - particles.js config loaded');
     // });
-
-    var ctx = $("#mycanvas").get(0).getContext("2d");
-    //pie chart data
-    //sum of values = 360
-    var data = [
-    {
-    value: 270,
-    color: "cornflowerblue",
-    highlight: "lightskyblue",
-    label: "Html/Css"
-    },
-    {
-    value: 50,
-    color: "lightgreen",
-    highlight: "yellowgreen",
-    label: "Javascript"
-    },
-    {
-    value: 40,
-    color: "orange",
-    highlight: "darkorange",
-    label: "Ruby"
-    }
-    ];
-    //draw
-    var piechart = new Chart(ctx).Pie(data);
-    });
-
-    $(document).ready(function() {
-  try {
+    try {
     $('#home').ripples({
       resolution: 512,
       dropRadius: 20, //px
@@ -68,4 +39,9 @@
     var strength = 0.04 + Math.random() * 0.04;
     $el.ripples('drop', x, y, dropRadius, strength);
   }, 400);
-});
+
+
+    });
+
+    
+  
