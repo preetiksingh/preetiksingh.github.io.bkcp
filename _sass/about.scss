@@ -15,4 +15,14 @@
   .col-custom{
     font-family: $about-font;
   }  
+
+  .row-custom {
+    img {
+      border-radius: 50%;
+      height:14em;
+      width:13em;
+      position:absolute;
+      left:7em;
+    }
+  }
 }

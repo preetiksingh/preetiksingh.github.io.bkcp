@@ -1,7 +1,15 @@
 #skills {
 
+  height:100vh;
+  background-color: #676F6D;
+  position:relative;
+
   h1 {
     text-align: center;
-    padding-bottom:2em;
+    padding-bottom:1em;
+  }
+
+  .progress-custom {
+    width:40%
   }
 }

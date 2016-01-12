@@ -1,0 +1,31 @@
+#contact {
+    background-color: #5FB9B5;
+    position:relative;
+    height:70vh;
+  h1 {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom:1.5em; 
+  }
+
+  .form-control-custom {
+    width:100%;
+
+  }
+
+  .btn-custom {
+    width:40%
+  }
+
+  .form-con {
+    position:absolute;
+    left:20em;
+    width:40em;
+  }
+
+  .icon-custom {
+    position:absolute;
+    left:40em;
+    bottom:1em;
+  }
+}
