@@ -1,12 +1,12 @@
 #project {
 
-  background-color: #1abc9c;
-  padding-bottom: 10em;
+  background-color: #464542;
+  // padding-bottom: 10em;
   height:100vh;
 
   h2 {
     text-align: center;
-    color:#584D4D;
+    color:#fff;
     font-family: 'Amatic SC', cursive;
     font-size: 5em;
   }
@@ -14,7 +14,7 @@
   p {
     text-align: center;
     font-size : 1.5em;
-    color :#ada6a6;
+    color :#fff;
   }
 
   ul {
@@ -32,7 +32,7 @@
 
       a {
 
-        color:#828281;
+        color:#fff;
         font-size:1.3em;
 
         &:hover {

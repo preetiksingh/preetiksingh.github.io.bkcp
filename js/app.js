@@ -40,7 +40,13 @@
     $el.ripples('drop', x, y, dropRadius, strength);
   }, 400);
 
-
+   $('.type-it').typeIt({
+    whatToType: ['Hi,', 'I am Preeti!'],
+    typeSpeed: 50,
+    lifeLike: false,
+    showCursor: true,
+    breakLines: false
+  });
     });
 
     
