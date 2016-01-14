@@ -41,7 +41,7 @@
   }, 400);
 
    $('.type-it').typeIt({
-    whatToType: ['Hi,', 'I am Preeti!'],
+    whatToType: ['Hi,', 'I am Preeti!','A Web Developer'],
     typeSpeed: 50,
     lifeLike: false,
     showCursor: true,
