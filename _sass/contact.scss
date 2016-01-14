@@ -1,8 +1,14 @@
 #contact {
-    background-color: #FC4D3C;
-    position:relative;
-    height:70vh;
-    border-top:3px solid #464542;
+  background-image: url('../images/contact-footer.png');
+  border: 1px solid transparent;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  
+  color:#fff;
+  background-color: black ;
+  position:relative;
+  height:70vh;
+  border-top:3px solid #464542;
   h1 {
     text-align: center;
     padding-top: 1.5em;
