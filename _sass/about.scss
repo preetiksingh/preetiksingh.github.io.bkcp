@@ -9,21 +9,21 @@
     color:black;
   }
 
-    span {
-       border-bottom: 5px solid #1abc9c;
-    }
-    
-  .col-custom{
-    font-family: $about-font;
-  }  
+  span {
+   border-bottom: 5px solid #1abc9c;
+ }
+ 
+ .col-custom{
+  font-family: $about-font;
+}  
 
-  .row-custom {
-    img {
-      border-radius: 50%;
-      height:14em;
-      width:13em;
-      position:absolute;
-      left:7em;
-    }
+.row-custom {
+  img {
+    border-radius: 50%;
+    height:14em;
+    width:13em;
+    position:absolute;
+    left:7em;
   }
+}
 }
