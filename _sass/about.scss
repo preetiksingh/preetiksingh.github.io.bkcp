@@ -1,7 +1,7 @@
 #about {
-
+  font-family: $about-font;
   height:70vh;
-  background-color: #25ADFF;
+  background-color: #AFABA0;
 
   .header-custom {
     text-align: center;
@@ -10,7 +10,7 @@
   }
 
   span {
-   border-bottom: 5px solid #1abc9c;
+   border-bottom: 5px solid transparent;
  }
  
  .col-custom{
